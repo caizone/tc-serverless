@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "<a href=\"https://github.com/TencentCloudBase/cloudbase-templates\"><img src=\"https://main.qcloudimg.com/raw/7b50431d8cef29d9ebb82c4ff2e6032c.png\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "nodemon": "2.0.7"
+  }
+}
